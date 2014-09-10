@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.patrick18.semapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Thomasian UAAP"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyActivity"
+            android:label="Thomasian UAAP" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sports"
+            android:label="Sports" >
+        </activity>
+        <activity
+            android:name=".sports2"
+            android:label="Sports" >
+        </activity>
+        <activity
+            android:name=".badminton"
+            android:label="Badminton" >
+        </activity>
+        <activity
+            android:name=".baseball"
+            android:label="Baseball/Softball" >
+        </activity>
+        <activity
+            android:name=".search"
+            android:label="Search" >
+        </activity>
+    </application>
+
+</manifest>
